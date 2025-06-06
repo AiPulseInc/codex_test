@@ -1,0 +1,12 @@
+{
+  "name": "react-vue-start",
+  "private": true,
+  "workspaces": [
+    "react-app",
+    "vue-app"
+  ],
+  "scripts": {
+    "react:dev": "npm run dev -w react-app",
+    "vue:dev": "npm run dev -w vue-app"
+  }
+}
